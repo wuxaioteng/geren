@@ -1,0 +1,428 @@
+@import url(base.css);
+ .about{
+	/* width:100%;  */
+	/* height: auto; */
+	background: #fff;
+	padding: 120px 0px;
+ }
+ .about .about_head{
+	max-width: 600px;
+	/* height: 90px; */
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 30px;
+ }
+ .about_head h1{
+ 	font-size:36px;
+ 	color:#0d0d0d;
+ 	text-align: center;
+ }
+ .about_head p{
+ 	font-size: 14px;
+ 	color: #55575d;
+ 	text-align: center;
+ }
+.about_img{
+	width: 100%;
+	height: 100%;
+	margin-top: 46px;
+	display: block;
+}
+.row h1{
+	font-size: 36px;
+	color: #0d0d0d;
+	margin-top: 46px;
+}
+.row p{
+	font-size: 16px;
+	color: #55575d;
+	line-height: 30px;
+}
+.qi{
+	width: 100%;
+	height: auto;
+	background: #F3F3F4;
+	padding: 120px 0 90px;
+}
+.qi .jie{
+	max-width: 600px;
+	background: #F3F3F4;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.jie h1{
+	font-size: 36px;
+	color: #0d0d0d;
+	text-align: center;
+}
+.jie p{
+	font-size: 14px;
+	color: #55575d;
+	line-height: 22px;
+	text-align: center;
+}
+.item{
+	background: #F3F3F4;
+}
+.item .web{
+	background: #fff;
+	float: left;
+	transition:all 0.3s;
+	margin-bottom: 30px;
+}
+.item .web:hover{
+	box-shadow: 0px 4px 16px 0px #808080;
+}
+.web .mc{
+	font-size:32px; 
+	color: #1A1A1A;
+	text-align: center;
+	display: block;
+	margin-top: 43px;
+}
+.web h4{
+	font-size: 24px;
+	color:#0d0d0d;
+	text-align: center;
+}
+.web p{
+	font-size: 14px;
+	color: #55575d;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.wo{
+	width: 100%;
+	height: auto;
+	background: #F3F3F4;
+	padding: 120px 0;
+}
+.wo .xiamu{
+	max-width: 600px;
+	/* height: 90px; */
+	background: #F3F3F4;
+	margin: 0 auto;
+}
+.xiamu h1{
+	font-size: 36px;
+	color: #0d0d0d;
+	text-align: center;
+}
+.xiamu p{
+	font-size: 14px;
+	color:  #55575d;
+	line-height: 22px;
+	text-align: center;
+}
+.wo .pc{
+	max-width:1140px;
+	/* height: 28px; */
+	background: #F3F3F4;
+	margin: 0 auto;
+	text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 55px;
+}
+.wo .ye{
+	font-size: 16px;
+	color: #979797;
+	margin-left: 31px;
+	line-height: 28px;
+}
+.wo .ye:first-child{
+	color: #0d1218;
+}
+.wo .xm{
+	/* padding: 120px 0; */
+}
+.xm .neib{
+	width: 100%;
+	/* height: 280px; */
+	background: green;
+	margin-bottom: 15px;
+	display: block;
+	margin-left: -7.5px;
+	position: relative;
+}
+.neib .xu{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.neib .zheb{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 1s;
+	transform: scale(0);
+}
+.neib:hover .zheb{
+	transform: scale(1);
+	transition: all 1s;
+}
+.zheb .dak{
+	width: 173px;
+	height: 117px;
+	/* background: blue; */
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.dak .yuan{
+	width: 30px;
+	height: 30px;
+	background:#aaaaaa;
+	line-height: 30px;
+	border-radius: 50%;
+	float: left;
+}
+.yuan:hover{
+	background: #1afaed;
+}
+.dak .yuan:first-child{
+	margin-left: 49px;
+}
+.dak .yuan:nth-child(2){
+	margin-left: 14px;
+}
+.yuan i{
+	font-size: 14px;
+	color: #444a4f;
+	text-align: center;
+	display: block;
+}
+.dak h2{
+	font-size: 18px;
+	color: #e1dedd;
+	margin-top: 44px;
+	text-align: center;
+}
+.dak p{
+	font-size: 12px;
+	color: #e1dedd;
+	text-align: center;
+}
+.ta{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding: 120px 0;
+}
+.ta .muxu{
+	max-width: 600px;
+	/* height: 90px; */
+	/* background: #F3F3F4; */
+	margin: 0 auto;
+	margin-bottom: 56px;
+}
+.muxu h1{
+	font-size: 36px;
+	color: #0d0d0d;
+	text-align: center;
+}
+.muxu p{
+	font-size: 14px;
+	color:  #55575d;
+	line-height: 22px;
+	text-align: center;
+}
+.muxu ul{
+	width: 100%;
+}
+.muxu ul li:first-child{
+	width: 66.6%;
+}
+.muxu ul li:last-child{
+	width: 33.3%;
+}
+#fc{
+	width:100%; 
+	height: 50px;
+}
+#fb{
+	width:100%; 
+	height: 50px;
+}
+input{
+	border: none;
+	border: 1px solid #f5f5f5;
+}
+textarea{
+	border: none;
+	border: 1px solid #f5f5f5;
+}
+textarea:focus{
+	outline: none;
+}
+input:focus{
+	outline: none;
+}
+textarea{
+	width: 100%;
+	height: 166px;
+}
+#fn{
+	width:124px; 
+	height: 45px;
+	background: #1A1A1A;
+	color: #fff;
+}
+.hans{
+	width: 100%;
+	/* height: 60px; */
+	display: flex;
+	justify-content: flex-start;
+}
+.hans .hang{
+	width:360px;
+	height: 60%;
+	background: #fff;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: flex-start;
+}
+.hang .fax{
+	width:60px;
+	height: 60px;
+	background: #F6F6F6;
+	line-height: 60px;
+	text-align: center;
+}
+.fax i{
+	font-size:36px; 
+	color:#55575D;
+	display: block;
+}
+.hang p{
+	font-size: 16px;
+	color: #959595;
+	/* line-height: 26px; */
+	/* width: 285px; */
+}
+footer{
+	width: 100%;
+	height: 120px;
+	background: #0d1218;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+footer .pinz{
+	width: 100%;
+	height: 36px;
+	/* background: red; */
+}
+footer .pinz1{
+	width: 100%;
+	/* height: 36px; */
+	/* background: red; */
+	display: flex;
+	justify-content: flex-end;
+}
+.pinz p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+}
+.pinz1 .fi{
+	width: 36px;
+	height: 36px;
+	background: #252525;
+	border-radius: 50%;
+	display: block;
+	margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fi i{
+	font-size:16px; 
+	color: #fff;
+
+}
+.zidin{
+	width: 50px;
+	height: 50px;
+	background: #0D1218;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	top: 0px;
+	transform: translateY(-50%) rotate(45deg);
+	line-height: 50px;
+	z-index: 0;
+}
+.zidin i{
+	font-size: 16px;
+	color: #fff;
+	display: block;
+	transform: rotate(-45deg);
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* 小屏 */
+@media screen and (max-width: 768px){
+	.item .web{
+		width:100%; 
+		height: 198px;
+	}
+
+
+}
+/* 平板 */
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.h1{
+		margin-top: 100px;
+	}
+	.item .web{
+		width:345px; 
+		height: 222px;
+	}
+
+
+
+}
+	/* pc小屏 */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.item .web{
+		width:293px; 
+		height: 246px;
+	}
+	
+
+
+}
+/* pc大屏 */
+@media screen and (min-width: 1200px){
+	.item .web{
+		width:360px; 
+		height: 222px;
+	}
+	
+
+}
